@@ -20,8 +20,45 @@ body {
     background-size: cover;
     height: 100vh;
     width: 100%;
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
 }
 
-.
+.player {
+    background-color: red;
+    width: 50vh;
+    height: 100px;
+    align-self: flex-end;
+    order: 3;
+}
+
+.cpu1 {
+    background-color: blue;
+    width: 100px;
+    height: 50vh;
+    align-self: center;
+    order: 1;
+}
+
+.cpu2 {
+    background-color: green;
+    width: 50vh;
+    height: 100px;
+    order: 2;
+    align-self: start;
+    
+    
+    
+}
+
+.cpu3 {
+    background-color: yellow;
+    width: 100px;
+    height: 50vh;
+    order: 4;
+    align-self: center;
+} 
 
